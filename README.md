@@ -162,7 +162,7 @@ var idx = indexOfNotEqual( x, 1.0, {
 });
 // returns <ndarray>
 
-var dt = dtype( idx );
+var dt = String( dtype( idx ) );
 // returns 'generic'
 ```
 
